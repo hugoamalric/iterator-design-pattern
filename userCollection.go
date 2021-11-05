@@ -5,7 +5,5 @@ type userCollection struct {
 }
 
 func (u *userCollection) createIterator() iterator {
-    return &userIterator{
-        users: u.users,
-    }
+    //TODO
 }

@@ -4,23 +4,10 @@ import "fmt"
 
 func main() {
 
-    user1 := &user{
-        name: "a",
-        age:  30,
-    }
-    user2 := &user{
-        name: "b",
-        age:  20,
-    }
+	//TODO : 
+	//- Create 2 users
+	//- Create a userCollection with these 2 users
+	//- Create a userCollection iterator
+	//- Iterate on the collection and print the users in stdout
 
-    userCollection := &userCollection{
-        users: []*user{user1, user2},
-    }
-
-    iterator := userCollection.createIterator()
-
-    for iterator.hasNext() {
-        user := iterator.getNext()
-        fmt.Printf("User is %+v\n", user)
-    }
 }
