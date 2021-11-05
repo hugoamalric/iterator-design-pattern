@@ -1,1 +1,3 @@
-# iterator-design-pattern
+# Iterator Design Pattern
+
+To run : `go run *.go`
